@@ -1,6 +1,10 @@
 # MySQL数据库安装
 
-下载 mysql-essential-5.1.40-win32.exe 
+
+安装mysql community server 5.1.60 windows版本（32或64位均支持)，安装过程中设置字符集为utf8，root账户密码为调试密码（该密码需向公司询问），安装目录可采用默认方式。 
+- MySQL官方下载地址：[MySQL官方下载地址](http://downloads.mysql.com/archives/community/))
+
+建议下载 mysql-essential-5.1.40-win32.exe 
 
 安装采用默认选项，不断Next，注意在配置Instance时需要将端口加入到防火墙意外中，如下图：
 
@@ -29,22 +33,24 @@ MySQL安装完后，右键计算机-管理，选择服务与应用程序-服务�
 
 找到下列三个变量（找不到则添加），修改数值
 
-innodb\_file\_per\_table=1//1个表对应一个
+```ini
+innodb_file_per_table=1
 
-tmp\_table\_size=128M//内存表容量设置  
-max\_heap\_table\_size=128M
+tmp_table_size=128M  
+
+max_heap_table_size=128M
+```
 
 找到下列三个变量，查看是否满足条件。
 
-default-character-set=utf8//字符集
+```ini
+default-character-set=utf8
 
-basedir="D:/Program Files/MySQL/MySQL Server 5.1/"//安装地址
+basedir="D:/Program Files/MySQL/MySQL Server 5.1/"
 
-datadir="D:/ProgramData/MySQL/MySQL Server 5.1/Data/"//数据存放地址（不要放系统盘）
+datadir="D:/ProgramData/MySQL/MySQL Server 5.1/Data/"
 
+```
 
-
-修改保存后，重新打开MySQL
-
-服务（右键计算机-管理，选择服务与应用程序-服务，找到MySQL服务，右键启动服务）。
+修改保存后，重新打开MySQL服务（右键计算机-管理，选择服务与应用程序-服务，找到MySQL服务，右键启动服务）。
 
