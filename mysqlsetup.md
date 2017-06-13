@@ -2,7 +2,7 @@
 
 安装采用默认选项，不断Next，注意在配置Instance时需要将端口加入到防火墙意外中，如下图：
 
-![](file:///C:/Users/golding/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png "1")
+![](/assets/2017-06-13_191414.png)
 
 编码选择采用utf8，如下：
 
