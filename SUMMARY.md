@@ -12,23 +12,15 @@
 * [工作站电脑安装准备](observer.md)
   * [View-Local软件安装和配置](View_local.md)
   * [打开项目文件，连接到core进行调试](View_local.md)
-
-
 * [第一次使用](first.md)
-
 * [View-Local软件使用](view_local.md)
   * [登录](lab_local.md)
   * [用户管理](lab_local.md)
   * [报警管理](lab_local.md)
   * [用户交互](lab_local.md)
-
 * [Lab-Local软件使用](lab_local.md)
   * [点表管理](lab_local.md)
   * [绘制界面](lab_local.md)
   * [导入模版](lab_local.md)
-
 * [View-Cloud软件使用](view_cloud.md)
-
-
-
 * [Lab-Cloud软件使用](lab_cloud.md)
