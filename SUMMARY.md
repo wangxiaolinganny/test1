@@ -32,5 +32,6 @@
   * [点表管理](lab_local.md)
   * [绘制界面](lab_local.md)
   * [导入模版](lab_local.md)
+  * [控制逻辑配置](logic/logic.md)
 * [View-Cloud软件使用](view_cloud.md)
 * [Lab-Cloud软件使用](lab_cloud.md)
