@@ -32,7 +32,7 @@
   * [点表管理](factory/point_manage.md)
   * [绘制界面](factory/page_draw.md)
   * [水流配置](factory/flow.md)
-  * [控制逻辑配置](factory/debug_tool.md)
+  * [BEOP调试工具](factory/debug_tool.md)
 * [View-Cloud软件使用](view_cloud.md)
 * [Lab-Cloud软件使用](lab_cloud.md)
 * [factory](factory.md)
