@@ -4,10 +4,10 @@
 
 1. 制作点表文件（格式为xlsx，需用Microsoft Excel进行编辑），点表模板从[这里](http://beop.rnbtech.com.hk/static/help/pointdebug/opcpointdemo.xlsx)下载。只有完全符合格式要求的点表文件，才能顺利导入到现场组态文件中。
    点表文件由多行构成，除第一行表示题头（不能擅自删除）外，每行表示一个现场的点。目前本平台支持的点类型及对应属性如下表。
-
-
-
-
+ 
+ 
+ 
+ 
 注意，`source`列内容必须在上述<b>点来源类型清单</b>中。
 
 
